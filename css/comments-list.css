@@ -1,0 +1,60 @@
+.comments-list .list-item {
+  position: relative;
+}
+
+.comments-list .list-item.level-1 {
+  margin-left: 30px;
+}
+
+
+.comments-list .item-author {
+  font-size: .85em;
+  line-height: 45px;
+  font-weight: bold;
+}
+
+.comments-list .item-date {
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: 45px;
+  color: #ccc;
+  font-size: .8em;
+}
+
+.comments-list .item-text {
+  /*margin-left: 25px;*/
+}
+
+.comments-list .item-controls {
+  font-size: .85em;
+  line-height: 45px;
+  margin-left: -15px;
+  margin-top: -15px;
+}
+
+.comments-list .item-controls a {
+  display: inline-block;
+  padding: 0 15px;
+  color: #888;
+  font-weight: bold;
+}
+
+.comments-list .item-controls .icon {
+  background-color: #888;
+}
+
+.comment-form {
+  padding: 5px;
+  background-color: rgba(0, 128, 255, .1);
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+.comment-form textarea {
+  width: 98%;
+  padding-left: 1%;
+  padding-right: 1%;
+  resize: none;
+  height: 2em;
+}

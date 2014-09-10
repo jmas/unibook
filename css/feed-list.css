@@ -1,0 +1,227 @@
+.feed-list {
+  margin-left: -15px;
+}
+
+.feed-list .list-item {
+  float: left;
+  width: 50%;
+}
+
+.feed-list .list-item img {
+  max-width: 100%;
+}
+
+.feed-list .list-item .item-inside {
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  border-radius: 3px;
+  padding: 15px;
+  height: 260px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.feed-list .item-add textarea {
+  resize: none;
+  width: 98%;
+  height: 250px;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.feed-list .item-summary {
+  text-align: center;
+  padding: 15px;
+  width: 250px;
+  background-color: rgba(255, 255, 255, .9);
+  border-radius: 3px;
+  margin: 60px auto;
+}
+
+.feed-list .item-summary .summary-name {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.feed-list .item-summary .summary-description {
+  margin-bottom: 15px;
+}
+
+.feed-list .list-item .new {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #FE642E;
+}
+
+.feed-list .list-item .action-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 60px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, .5);
+  border-radius: 50%;
+}
+
+.feed-list .list-item .item-inside .item-controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  /*border-top: 1px solid rgba(230, 230, 230, .5); */
+  font-size: .8em;
+  background-color: rgba(238, 238, 238, .3);
+  border-radius: 0 0 3px 3px;
+}
+
+.feed-list .list-item .item-inside .item-controls .icon {
+  background-color: #888;
+}
+
+.feed-list .list-item .item-inside .item-controls .icon.image-like {
+  width: 16px;
+  height: 16px;
+}
+
+.feed-list .list-item .item-inside .item-controls .icon.image-comment {
+  width: 24px;
+  height: 24px;
+}
+
+.feed-list .list-item .item-date {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  line-height: 45px;
+  padding: 0 15px;
+  font-size: .8em;
+  color: #888;
+  opacity: .5;
+}
+
+.feed-list .list-item .item-author {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 200px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  font-size: .8em;
+}
+
+.feed-list .list-item .item-author .avatar {
+  width: 20px;
+  height: 20px;
+}
+
+.feed-list .list-item .item-author a {
+  color: #888;
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.feed-list .list-item .item-title {
+  line-height: 1.2em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.feed-list .list-item .item-text {
+  position: relative;
+  font-size: .9em;
+  height: 165px;
+  overflow: hidden;
+  line-height: 1.2em;
+}
+
+.feed-list .list-item .item-text:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.5em;
+  content: '';
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0)), to(rgba(255,255,255,1)), color-stop(.9,rgb(255,255,255)));
+}
+
+.feed-list .list-item.dark .item-text:after {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(85,85,85,0)), to(rgba(85,85,85,1)), color-stop(.9,rgb(85,85,85)));
+}
+
+.feed-list .list-item .item-cite {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  padding: 0 5%;
+  height: 150px;
+  font-size: 1.6em;
+  text-align: center;
+  line-height: 1.3em;
+}
+
+.feed-list .list-item .item-text p {
+  line-height: 1.2em;
+  margin-bottom: 1em;
+}
+
+.feed-list .list-item .item-inside .item-controls a {
+  padding: 0 5px 0 15px;
+  line-height: 45px;
+  color: #888;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.feed-list .list-item.dark {
+  color: #fff;
+}
+
+.feed-list .list-item.dark .item-inside .item-controls {
+  background-color: rgba(85, 85, 85, .5);
+}
+
+.feed-list .list-item.dark .item-inside .item-controls a {
+  color: #fff;
+}
+
+.feed-list .list-item.dark .item-inside {
+  background-color: #555;
+  color: #fff;
+}
+
+.feed-list .list-item.dark .item-inside .item-controls .icon {
+  background-color: #fff;
+}
+
+.feed-list .list-item.dark a {
+  color: #fff;
+}
+
+.feed-list .list-item.dark .item-date {
+  color: #fff;
+}
+
+@media (max-width: 780px) {
+  .feed-list .list-item {
+    float: none;
+    width: auto;
+  }
+}

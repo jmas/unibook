@@ -1,0 +1,46 @@
+.setup-dialog .dialog-inside {
+  max-width: 675px;
+}
+
+.view-dialog-controls {
+  position: relative;
+  line-height: 45px;
+  font-size: .8em;
+  background-color: rgba(238, 238, 238, .3);
+  border-radius: 0 0 3px 3px;
+  margin: 0 -15px;
+  margin-bottom: 30px;
+}
+
+.view-dialog-controls .controls-date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 45px;
+  padding: 0 15px;
+  /*font-size: .9em;*/
+  color: #888;
+  opacity: .5;
+}
+
+.view-dialog-controls .icon {
+  background-color: #888;
+}
+
+.view-dialog-controls .icon.image-like {
+  width: 16px;
+  height: 16px;
+}
+
+.view-dialog-controls .icon.image-comment {
+  width: 24px;
+  height: 24px;
+}
+
+.view-dialog-controls a {
+  padding: 0 5px 0 15px;
+  line-height: 45px;
+  color: #888;
+  font-weight: bold;
+  display: inline-block;
+}

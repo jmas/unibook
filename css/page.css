@@ -1,0 +1,85 @@
+.page-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 100%;
+  background-color: #555;
+}
+
+.page-menu .menu-item {
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-bottom: 1px solid #666;
+  overflow: hidden;
+  color: #fff;
+  text-indent: 1000px;
+}
+
+.page-menu .menu-item.active {
+  border-bottom-width: 0;
+  background-color: #0080FF;
+}
+
+.page-menu .menu-item .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #fff;
+}
+
+.page-menu .menu-item .badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #FE642E;
+  border: 2px solid #555;
+  text-align: center;
+  line-height: 18px;
+  font-size: .7em;
+  display: block;
+  color: #fff;
+  text-indent: 0;
+}
+
+.page-menu .menu-item.active .badge {
+  border-color: #0080FF;
+}
+
+.page-menu .menu-item .icon {
+  width: 32px;
+  height: 32px;
+}
+
+.page-menu .menu-item .icon.image-comment {
+  width: 45px;
+  height: 45px;
+}
+
+.page-menu .other {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.page-menu .other .menu-item {
+  border-bottom: 0;
+  border-top: 1px solid #666;
+}
+
+.page-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 30px 30px 90px;
+  overflow: hidden;
+}
